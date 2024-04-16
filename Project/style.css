@@ -1,0 +1,321 @@
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.div1 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    z-index: -1;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+}
+
+
+/*---------------------------------HEADER--------------------------------------*/
+
+
+.div1 > div > header {
+    height: 15vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 650px;
+    margin-bottom: 50px;
+    margin-top: -100px;
+}
+.div1 > div > header>img{
+    /*margin-left: 550px;*/
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    margin-right: -95px;
+}
+
+.p1 {
+    color: #FF4B32;
+    width: 75.261px;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.p2 {
+    color: #FF4B32;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.p3 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.p4 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.p5, .p6 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 50px;
+}
+
+
+/*----------------------------------MAIN----------------------------------*/
+
+
+.div1 > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    left: 0;
+}
+
+.p11 {
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    width: 524px;
+    margin-left: 500px;
+    margin-bottom: 35px;
+}
+
+.p22 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    margin-left: 500px;
+    width: 506px;
+    margin-bottom: 35px;
+}
+
+.div1 > div > button {
+    width: 148px;
+    height: 53px;
+
+    border-radius: 5px;
+    background: #FF4B32;
+    border: none;
+    margin-left: 500px;
+    margin-bottom: 50px;
+
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+
+/*-------------------------------DIV_2--------------------------------------*/
+
+
+.div2 {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1 {
+    display: flex;
+    width: 60vw;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.box2 {
+    justify-content: space-between;
+    display: flex;
+    width: 60vw;
+    height: 70vh;
+    margin-top: 130px;
+}
+
+.h1 {
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+    letter-spacing: 6.45px;
+    width: 590px;
+    margin-top: 30px;
+}
+
+.div2 > .box1 > p {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 506px;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+}
+
+.b2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.b3 {
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------------IMG----------------------*/
+
+.b1 > img {
+    width: 300px;
+    height: 265px;
+    flex-shrink: 0;
+    margin-bottom: 35px;
+}
+
+.b2 > img {
+    width: 303px;
+    height: 265px;
+    flex-shrink: 0;
+    margin-bottom: 35px;
+}
+
+.b3 > img {
+    width: 319px;
+    height: 251px;
+    flex-shrink: 0;
+    margin-bottom: 35px;
+}
+
+/*-------------------------B---------------------------*/
+
+.dollar{
+    color: #0C0D0C;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 10px;
+}
+h3{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 15px;
+}
+.p111{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 257px;
+}
+
+
+/*-----------------------------------DIV_3----------------------------------------------*/
+
+
+.div3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+
+}
+.coff{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 609px;
+    /*margin-bottom: px;*/
+}
+.load{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/*------------------------BOX_3----------------------------*/
+
+.box3{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 450px;
+}
+.img1{
+    margin: 15px;
+}
